@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+  <record model="ir.ui.view" id="catalog_costume_form">
+    <field name="name">catalog.costume.form</field>
+    <field name="model">catalog.costume</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <field name="name"/>
+            <field name="description"/>
+            <field name="stock"/>
+            <field name="image"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+</odoo>

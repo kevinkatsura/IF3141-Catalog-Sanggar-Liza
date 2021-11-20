@@ -3,13 +3,13 @@
     <record id="action_list_costume" model="ir.actions.act_window">
         <field name="name">Daftar Busana</field>
         <field name="res_model">catalog.costume</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">tree</field>
     </record>
 
     <record id="action_costume_form" model="ir.actions.act_window">
         <field name="name">Tambahkan Busana</field>
         <field name="res_model">catalog.costume</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">form</field>
     </record>
 
     <menuitem id="catalog_root_menu" 

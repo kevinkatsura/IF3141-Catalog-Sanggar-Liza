@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Sanggar Liza Catalog",
+    'name': "Catalog",
     'summary': 'Odoo module untuk menyediakan catalog busana yang ada di Sanggar Liza',
     'description': 'Modul ini dapat menampilkan seluruh busana yang tersedia, menambahkan busana ',
     'sequence': -100,
@@ -9,7 +9,10 @@
     'version': '1.0',
     'depends': ['base'],
     'data': [
+        'security/ir.model.access.csv',
         'views/catalog_menus.xml',
+        'views/catalog_forms.xml',
+        'views/catalog_trees.xml',
     ],
     'demo': [
         'demo/demo.xml',
