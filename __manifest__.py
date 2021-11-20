@@ -9,8 +9,7 @@
     'version': '1.0',
     'depends': ['base'],
     'data': [
-        'security/ir.model.access.csv',
-        'views/catalog_costume_form.xml',
+        'views/catalog_menus.xml',
     ],
     'demo': [
         'demo/demo.xml',

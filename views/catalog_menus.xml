@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_list_costume" model="ir.actions.act_window">
+        <field name="name">Daftar Busana</field>
+        <field name="res_model">catalog.costume</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_costume_form" model="ir.actions.act_window">
+        <field name="name">Tambahkan Busana</field>
+        <field name="res_model">catalog.costume</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="catalog_root_menu" 
+        name="Catalog"
+        sequence="1"/>
+
+    <menuitem id="catalog_list_costume_menu" 
+        name="Daftar Busana"
+        parent="catalog_root_menu"
+        action="action_list_costume"
+        sequence="1"/>
+
+    <menuitem id="catalog_add_costume_menu" 
+        name="Tambahkan Busana"
+        parent="catalog_root_menu"
+        action="action_costume_form"
+        sequence="2"/>
+</odoo>
